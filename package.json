@@ -3,5 +3,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev:backend": "yarn workspace backend dev"
+  }
 }
